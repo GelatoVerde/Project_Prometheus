@@ -1,0 +1,2030 @@
+fileFormatVersion: 2
+guid: 88b332a3ded01480b931d07fa0455e99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8660739743782476518
+    second: spriteSheet_lightingBulb02_136x146_0
+  - first:
+      213: 3240596270881771538
+    second: spriteSheet_lightingBulb02_136x146_1
+  - first:
+      213: -1895435482759488435
+    second: spriteSheet_lightingBulb02_136x146_2
+  - first:
+      213: 4634804021778180736
+    second: spriteSheet_lightingBulb02_136x146_3
+  - first:
+      213: -2934639028718890744
+    second: spriteSheet_lightingBulb02_136x146_4
+  - first:
+      213: -6630462022129031046
+    second: spriteSheet_lightingBulb02_136x146_5
+  - first:
+      213: 4416990082512375221
+    second: spriteSheet_lightingBulb02_136x146_6
+  - first:
+      213: -7193143778224719438
+    second: spriteSheet_lightingBulb02_136x146_7
+  - first:
+      213: -6215683193169858639
+    second: spriteSheet_lightingBulb02_136x146_8
+  - first:
+      213: -1384208835110193241
+    second: spriteSheet_lightingBulb02_136x146_9
+  - first:
+      213: 7897272501646548410
+    second: spriteSheet_lightingBulb02_136x146_10
+  - first:
+      213: 2346587664322061683
+    second: spriteSheet_lightingBulb02_136x146_11
+  - first:
+      213: 7520842639694193979
+    second: spriteSheet_lightingBulb02_136x146_12
+  - first:
+      213: -3391048480806957225
+    second: spriteSheet_lightingBulb02_136x146_13
+  - first:
+      213: 1076559359833903601
+    second: spriteSheet_lightingBulb02_136x146_14
+  - first:
+      213: -617009735759839446
+    second: spriteSheet_lightingBulb02_136x146_15
+  - first:
+      213: 1178250054396196814
+    second: spriteSheet_lightingBulb02_136x146_16
+  - first:
+      213: -5479228493467505549
+    second: spriteSheet_lightingBulb02_136x146_17
+  - first:
+      213: -4345955661559585655
+    second: spriteSheet_lightingBulb02_136x146_18
+  - first:
+      213: -8233658022000633253
+    second: spriteSheet_lightingBulb02_136x146_19
+  - first:
+      213: 890665585539229159
+    second: spriteSheet_lightingBulb02_136x146_20
+  - first:
+      213: 1842817460886994647
+    second: spriteSheet_lightingBulb02_136x146_21
+  - first:
+      213: 6750358813081956565
+    second: spriteSheet_lightingBulb02_136x146_22
+  - first:
+      213: -93450165877621656
+    second: spriteSheet_lightingBulb02_136x146_23
+  - first:
+      213: -2610555033589069039
+    second: spriteSheet_lightingBulb02_136x146_24
+  - first:
+      213: -283701106133657986
+    second: spriteSheet_lightingBulb02_136x146_25
+  - first:
+      213: -7614142527632152597
+    second: spriteSheet_lightingBulb02_136x146_26
+  - first:
+      213: 3503146414109092276
+    second: spriteSheet_lightingBulb02_136x146_27
+  - first:
+      213: 4603300926253872985
+    second: spriteSheet_lightingBulb02_136x146_28
+  - first:
+      213: -5625009383055208808
+    second: spriteSheet_lightingBulb02_136x146_29
+  - first:
+      213: 8068046256716021489
+    second: spriteSheet_lightingBulb02_136x146_30
+  - first:
+      213: -6129954962685315177
+    second: spriteSheet_lightingBulb02_136x146_31
+  - first:
+      213: -1037006177858163198
+    second: spriteSheet_lightingBulb02_136x146_32
+  - first:
+      213: 5493162249731079448
+    second: spriteSheet_lightingBulb02_136x146_33
+  - first:
+      213: 8069415001243864408
+    second: spriteSheet_lightingBulb02_136x146_34
+  - first:
+      213: 1026631825802204213
+    second: spriteSheet_lightingBulb02_136x146_35
+  - first:
+      213: -1580083016570220687
+    second: spriteSheet_lightingBulb02_136x146_36
+  - first:
+      213: -2879602195304942121
+    second: spriteSheet_lightingBulb02_136x146_37
+  - first:
+      213: -974841827997143015
+    second: spriteSheet_lightingBulb02_136x146_38
+  - first:
+      213: 3946266638693129495
+    second: spriteSheet_lightingBulb02_136x146_39
+  - first:
+      213: 6569294892871532377
+    second: spriteSheet_lightingBulb02_136x146_40
+  - first:
+      213: 5780730832619089352
+    second: spriteSheet_lightingBulb02_136x146_41
+  - first:
+      213: 7829545460021871509
+    second: spriteSheet_lightingBulb02_136x146_42
+  - first:
+      213: 4596186673344360881
+    second: spriteSheet_lightingBulb02_136x146_43
+  - first:
+      213: -6775668392003731951
+    second: spriteSheet_lightingBulb02_136x146_44
+  - first:
+      213: 7330557810708534579
+    second: spriteSheet_lightingBulb02_136x146_45
+  - first:
+      213: 7632779657000220276
+    second: spriteSheet_lightingBulb02_136x146_46
+  - first:
+      213: 2537381541147251939
+    second: spriteSheet_lightingBulb02_136x146_47
+  - first:
+      213: 7695407009451567137
+    second: spriteSheet_lightingBulb02_136x146_48
+  - first:
+      213: 2250637616624240251
+    second: spriteSheet_lightingBulb02_136x146_49
+  - first:
+      213: 1413649609308369217
+    second: spriteSheet_lightingBulb02_136x146_50
+  - first:
+      213: -7102386008838588566
+    second: spriteSheet_lightingBulb02_136x146_51
+  - first:
+      213: -2934512913011401486
+    second: spriteSheet_lightingBulb02_136x146_52
+  - first:
+      213: -7612682820422748168
+    second: spriteSheet_lightingBulb02_136x146_53
+  - first:
+      213: -6138838491195778560
+    second: spriteSheet_lightingBulb02_136x146_54
+  - first:
+      213: -9167185579432977094
+    second: spriteSheet_lightingBulb02_136x146_55
+  - first:
+      213: 3697323529403058766
+    second: spriteSheet_lightingBulb02_136x146_56
+  - first:
+      213: -3762446364785850849
+    second: spriteSheet_lightingBulb02_136x146_57
+  - first:
+      213: -1228460844618734852
+    second: spriteSheet_lightingBulb02_136x146_58
+  - first:
+      213: -6564468596056929599
+    second: spriteSheet_lightingBulb02_136x146_59
+  - first:
+      213: 8552515157921621588
+    second: spriteSheet_lightingBulb02_136x146_60
+  - first:
+      213: -3766443104556688152
+    second: spriteSheet_lightingBulb02_136x146_61
+  - first:
+      213: 6254106082887691128
+    second: spriteSheet_lightingBulb02_136x146_62
+  - first:
+      213: 6849685729580053287
+    second: spriteSheet_lightingBulb02_136x146_63
+  - first:
+      213: 8154307251727380985
+    second: spriteSheet_lightingBulb02_136x146_64
+  - first:
+      213: -3935498587939216913
+    second: spriteSheet_lightingBulb02_136x146_65
+  - first:
+      213: -5008005893239395879
+    second: spriteSheet_lightingBulb02_136x146_66
+  - first:
+      213: 7044717251125015380
+    second: spriteSheet_lightingBulb02_136x146_67
+  - first:
+      213: 8420074434600715206
+    second: spriteSheet_lightingBulb02_136x146_68
+  - first:
+      213: 3134903201208336197
+    second: spriteSheet_lightingBulb02_136x146_69
+  - first:
+      213: -394566749577879739
+    second: spriteSheet_lightingBulb02_136x146_70
+  - first:
+      213: -3392615850448956133
+    second: spriteSheet_lightingBulb02_136x146_71
+  - first:
+      213: 896484247692157229
+    second: spriteSheet_lightingBulb02_136x146_72
+  - first:
+      213: 3933613700205170875
+    second: spriteSheet_lightingBulb02_136x146_73
+  - first:
+      213: 6098270993235197265
+    second: spriteSheet_lightingBulb02_136x146_74
+  - first:
+      213: 158733693226558867
+    second: spriteSheet_lightingBulb02_136x146_75
+  - first:
+      213: 3778184294789105254
+    second: spriteSheet_lightingBulb02_136x146_76
+  - first:
+      213: -6366020202310224366
+    second: spriteSheet_lightingBulb02_136x146_77
+  - first:
+      213: 6472904954951929181
+    second: spriteSheet_lightingBulb02_136x146_78
+  - first:
+      213: -7935947744095910643
+    second: spriteSheet_lightingBulb02_136x146_79
+  - first:
+      213: -1725460851695615793
+    second: spriteSheet_lightingBulb02_136x146_80
+  - first:
+      213: -3245982842788585819
+    second: spriteSheet_lightingBulb02_136x146_81
+  - first:
+      213: 8079820629762072974
+    second: spriteSheet_lightingBulb02_136x146_82
+  - first:
+      213: 4475342974918106742
+    second: spriteSheet_lightingBulb02_136x146_83
+  - first:
+      213: 5000755048222206785
+    second: spriteSheet_lightingBulb02_136x146_84
+  - first:
+      213: 5231033218291557671
+    second: spriteSheet_lightingBulb02_136x146_85
+  - first:
+      213: -6396893407177490876
+    second: spriteSheet_lightingBulb02_136x146_86
+  - first:
+      213: 291025640970105067
+    second: spriteSheet_lightingBulb02_136x146_87
+  - first:
+      213: 6683407021000814729
+    second: spriteSheet_lightingBulb02_136x146_88
+  - first:
+      213: 5188108811057742649
+    second: spriteSheet_lightingBulb02_136x146_89
+  - first:
+      213: 4459325821267753085
+    second: spriteSheet_lightingBulb02_136x146_90
+  - first:
+      213: -5797868656654095418
+    second: spriteSheet_lightingBulb02_136x146_91
+  - first:
+      213: -8916228622142630690
+    second: spriteSheet_lightingBulb02_136x146_92
+  - first:
+      213: -5873425821321810471
+    second: spriteSheet_lightingBulb02_136x146_93
+  - first:
+      213: 7384876216573152706
+    second: spriteSheet_lightingBulb02_136x146_94
+  - first:
+      213: -8566861693438497021
+    second: spriteSheet_lightingBulb02_136x146_95
+  - first:
+      213: 7498321546507165520
+    second: spriteSheet_lightingBulb02_136x146_96
+  - first:
+      213: 8347282151474666047
+    second: spriteSheet_lightingBulb02_136x146_97
+  - first:
+      213: 2333435984838299419
+    second: spriteSheet_lightingBulb02_136x146_98
+  - first:
+      213: -4435458437689627993
+    second: spriteSheet_lightingBulb02_136x146_99
+  - first:
+      213: -1747217238492088375
+    second: spriteSheet_lightingBulb02_136x146_100
+  - first:
+      213: -1667939388541919267
+    second: spriteSheet_lightingBulb02_136x146_101
+  - first:
+      213: 3230425993879921989
+    second: spriteSheet_lightingBulb02_136x146_102
+  - first:
+      213: 8250245376177336465
+    second: spriteSheet_lightingBulb02_136x146_103
+  - first:
+      213: -7144760376171165393
+    second: spriteSheet_lightingBulb02_136x146_104
+  - first:
+      213: -1374667498733398583
+    second: spriteSheet_lightingBulb02_136x146_105
+  - first:
+      213: 3450240211411510525
+    second: spriteSheet_lightingBulb02_136x146_106
+  - first:
+      213: 7902544091720087845
+    second: spriteSheet_lightingBulb02_136x146_107
+  - first:
+      213: -1056129253703669
+    second: spriteSheet_lightingBulb02_136x146_108
+  - first:
+      213: 2036829056320097921
+    second: spriteSheet_lightingBulb02_136x146_109
+  - first:
+      213: 4998695373636649195
+    second: spriteSheet_lightingBulb02_136x146_110
+  - first:
+      213: -8395181834728148504
+    second: spriteSheet_lightingBulb02_136x146_111
+  - first:
+      213: 8666092023141471555
+    second: spriteSheet_lightingBulb02_136x146_112
+  - first:
+      213: 8083349437764534417
+    second: spriteSheet_lightingBulb02_136x146_113
+  - first:
+      213: -6770055884530886442
+    second: spriteSheet_lightingBulb02_136x146_114
+  - first:
+      213: 8208341872790506844
+    second: spriteSheet_lightingBulb02_136x146_115
+  - first:
+      213: -86007448288344973
+    second: spriteSheet_lightingBulb02_136x146_116
+  - first:
+      213: 7401473451619417837
+    second: spriteSheet_lightingBulb02_136x146_117
+  - first:
+      213: -9196835920440127396
+    second: spriteSheet_lightingBulb02_136x146_118
+  - first:
+      213: 822172830342675739
+    second: spriteSheet_lightingBulb02_136x146_119
+  - first:
+      213: 7325503701361372345
+    second: spriteSheet_lightingBulb02_136x146_120
+  - first:
+      213: 6360708073399917062
+    second: spriteSheet_lightingBulb02_136x146_121
+  - first:
+      213: 8951998041670306243
+    second: spriteSheet_lightingBulb02_136x146_122
+  - first:
+      213: 7875012278603075170
+    second: spriteSheet_lightingBulb02_136x146_123
+  - first:
+      213: 5958973905983874030
+    second: spriteSheet_lightingBulb02_136x146_124
+  - first:
+      213: -8050332699191429705
+    second: spriteSheet_lightingBulb02_136x146_125
+  - first:
+      213: -185671042052826064
+    second: spriteSheet_lightingBulb02_136x146_126
+  - first:
+      213: 6791926840289150645
+    second: spriteSheet_lightingBulb02_136x146_127
+  - first:
+      213: 1507924216135953604
+    second: spriteSheet_lightingBulb02_136x146_128
+  - first:
+      213: 4097885127268979255
+    second: spriteSheet_lightingBulb02_136x146_129
+  - first:
+      213: 4853277098138350069
+    second: spriteSheet_lightingBulb02_136x146_130
+  - first:
+      213: -166037659536621334
+    second: spriteSheet_lightingBulb02_136x146_131
+  - first:
+      213: 1620076413475772171
+    second: spriteSheet_lightingBulb02_136x146_132
+  - first:
+      213: -1757429879821414755
+    second: spriteSheet_lightingBulb02_136x146_133
+  - first:
+      213: -7505384167247886842
+    second: spriteSheet_lightingBulb02_136x146_134
+  - first:
+      213: -3886386891740970807
+    second: spriteSheet_lightingBulb02_136x146_135
+  - first:
+      213: -2427007399246627009
+    second: spriteSheet_lightingBulb02_136x146_136
+  - first:
+      213: -4600358388861357355
+    second: spriteSheet_lightingBulb02_136x146_137
+  - first:
+      213: 6828868944656265955
+    second: spriteSheet_lightingBulb02_136x146_138
+  - first:
+      213: 194270067202652944
+    second: spriteSheet_lightingBulb02_136x146_139
+  - first:
+      213: 7634408848587716973
+    second: spriteSheet_lightingBulb02_136x146_140
+  - first:
+      213: 7128193634380769551
+    second: spriteSheet_lightingBulb02_136x146_141
+  - first:
+      213: 1490862369289121618
+    second: spriteSheet_lightingBulb02_136x146_142
+  - first:
+      213: -402350132057762145
+    second: spriteSheet_lightingBulb02_136x146_143
+  - first:
+      213: -3358129692553126487
+    second: spriteSheet_lightingBulb02_136x146_144
+  - first:
+      213: 7731488312519239912
+    second: spriteSheet_lightingBulb02_136x146_145
+  - first:
+      213: 3400027693883817937
+    second: spriteSheet_lightingBulb02_136x146_146
+  - first:
+      213: 2503147037419622091
+    second: spriteSheet_lightingBulb02_136x146_147
+  - first:
+      213: -7574432995008431491
+    second: spriteSheet_lightingBulb02_136x146_148
+  - first:
+      213: 72533312946755529
+    second: spriteSheet_lightingBulb02_136x146_149
+  - first:
+      213: -5037823588181169538
+    second: spriteSheet_lightingBulb02_136x146_150
+  - first:
+      213: 552632350244459199
+    second: spriteSheet_lightingBulb02_136x146_151
+  - first:
+      213: -2285115326491427357
+    second: spriteSheet_lightingBulb02_136x146_152
+  - first:
+      213: -1894473139832721484
+    second: spriteSheet_lightingBulb02_136x146_153
+  - first:
+      213: -7031652416084695978
+    second: spriteSheet_lightingBulb02_136x146_154
+  - first:
+      213: 7154473805010201093
+    second: spriteSheet_lightingBulb02_136x146_155
+  - first:
+      213: -180865965961469677
+    second: spriteSheet_lightingBulb02_136x146_156
+  - first:
+      213: 6026168054208227487
+    second: spriteSheet_lightingBulb02_136x146_157
+  - first:
+      213: -3708359795910412989
+    second: spriteSheet_lightingBulb02_136x146_158
+  - first:
+      213: 5926193170660252604
+    second: spriteSheet_lightingBulb02_136x146_159
+  - first:
+      213: 5766630981082002089
+    second: spriteSheet_lightingBulb02_136x146_160
+  - first:
+      213: -784841689285640359
+    second: spriteSheet_lightingBulb02_136x146_161
+  - first:
+      213: 647713239072455409
+    second: spriteSheet_lightingBulb02_136x146_162
+  - first:
+      213: -8022848631984749035
+    second: spriteSheet_lightingBulb02_136x146_163
+  - first:
+      213: 151208960448975170
+    second: spriteSheet_lightingBulb02_136x146_164
+  - first:
+      213: -2647944147110354074
+    second: spriteSheet_lightingBulb02_136x146_165
+  - first:
+      213: 5320656353010139690
+    second: spriteSheet_lightingBulb02_136x146_166
+  - first:
+      213: 4515287042584857560
+    second: spriteSheet_lightingBulb02_136x146_167
+  - first:
+      213: 7276418462691649934
+    second: spriteSheet_lightingBulb02_136x146_168
+  - first:
+      213: 3541805432277565463
+    second: spriteSheet_lightingBulb02_136x146_169
+  - first:
+      213: -6065855689164018761
+    second: spriteSheet_lightingBulb02_136x146_170
+  - first:
+      213: -3867668353641355431
+    second: spriteSheet_lightingBulb02_136x146_171
+  - first:
+      213: -3562021387295700513
+    second: spriteSheet_lightingBulb02_136x146_172
+  - first:
+      213: -4170923253740902154
+    second: spriteSheet_lightingBulb02_136x146_173
+  - first:
+      213: -7181880936700099479
+    second: spriteSheet_lightingBulb02_136x146_174
+  - first:
+      213: 7907824170890892238
+    second: spriteSheet_lightingBulb02_136x146_175
+  - first:
+      213: 4516849512728240133
+    second: spriteSheet_lightingBulb02_136x146_176
+  - first:
+      213: -1201091803702004506
+    second: spriteSheet_lightingBulb02_136x146_177
+  - first:
+      213: 3571931893151553830
+    second: spriteSheet_lightingBulb02_136x146_178
+  - first:
+      213: -2732676785897689787
+    second: spriteSheet_lightingBulb02_136x146_179
+  - first:
+      213: 8316869842735063816
+    second: spriteSheet_lightingBulb02_136x146_180
+  - first:
+      213: 9060913337033318727
+    second: spriteSheet_lightingBulb02_136x146_181
+  - first:
+      213: -1619364233245525480
+    second: spriteSheet_lightingBulb02_136x146_182
+  - first:
+      213: -467001500134289625
+    second: spriteSheet_lightingBulb02_136x146_183
+  - first:
+      213: 4991385631574564529
+    second: spriteSheet_lightingBulb02_136x146_184
+  - first:
+      213: -7251172858336503961
+    second: spriteSheet_lightingBulb02_136x146_185
+  - first:
+      213: 6686130353276917895
+    second: spriteSheet_lightingBulb02_136x146_186
+  - first:
+      213: -3003069631407401522
+    second: spriteSheet_lightingBulb02_136x146_187
+  - first:
+      213: 7222478560107883504
+    second: spriteSheet_lightingBulb02_136x146_188
+  - first:
+      213: -4939852825458972553
+    second: spriteSheet_lightingBulb02_136x146_189
+  - first:
+      213: 4441918905595045666
+    second: spriteSheet_lightingBulb02_136x146_190
+  - first:
+      213: 4648414162589146981
+    second: spriteSheet_lightingBulb02_136x146_191
+  - first:
+      213: -8784197125712874464
+    second: spriteSheet_lightingBulb02_136x146_192
+  - first:
+      213: 6934626689487595442
+    second: spriteSheet_lightingBulb02_136x146_193
+  - first:
+      213: -8922004944807721201
+    second: spriteSheet_lightingBulb02_136x146_194
+  - first:
+      213: 2009831145835809076
+    second: spriteSheet_lightingBulb02_136x146_195
+  - first:
+      213: 7868045389855131371
+    second: spriteSheet_lightingBulb02_136x146_196
+  - first:
+      213: -8325570257980526081
+    second: spriteSheet_lightingBulb02_136x146_197
+  - first:
+      213: -4491540154492948863
+    second: spriteSheet_lightingBulb02_136x146_198
+  - first:
+      213: 6758863035333036540
+    second: spriteSheet_lightingBulb02_136x146_199
+  - first:
+      213: 6456894730496363494
+    second: spriteSheet_lightingBulb02_136x146_200
+  - first:
+      213: -6871807752090624190
+    second: spriteSheet_lightingBulb02_136x146_201
+  - first:
+      213: 2329625366499998534
+    second: spriteSheet_lightingBulb02_136x146_202
+  - first:
+      213: 6147369400855475513
+    second: spriteSheet_lightingBulb02_136x146_203
+  - first:
+      213: -264306277130831890
+    second: spriteSheet_lightingBulb02_136x146_204
+  - first:
+      213: -8816874267128437946
+    second: spriteSheet_lightingBulb02_136x146_205
+  - first:
+      213: 7322519178190022805
+    second: spriteSheet_lightingBulb02_136x146_206
+  - first:
+      213: 8123802744584755617
+    second: spriteSheet_lightingBulb02_136x146_207
+  - first:
+      213: -7169429857552998811
+    second: spriteSheet_lightingBulb02_136x146_208
+  - first:
+      213: -820360410048745728
+    second: spriteSheet_lightingBulb02_136x146_209
+  - first:
+      213: 2225718345349231787
+    second: spriteSheet_lightingBulb02_136x146_210
+  - first:
+      213: 494742466742681516
+    second: spriteSheet_lightingBulb02_136x146_211
+  - first:
+      213: 5123979228538899848
+    second: spriteSheet_lightingBulb02_136x146_212
+  - first:
+      213: -635661588552965983
+    second: spriteSheet_lightingBulb02_136x146_213
+  - first:
+      213: -3028055460006898119
+    second: spriteSheet_lightingBulb02_136x146_214
+  - first:
+      213: -6555417561219976837
+    second: spriteSheet_lightingBulb02_136x146_215
+  - first:
+      213: -5021375119149459438
+    second: spriteSheet_lightingBulb02_136x146_216
+  - first:
+      213: -8787575256642456170
+    second: spriteSheet_lightingBulb02_136x146_217
+  - first:
+      213: -8172790415275775639
+    second: spriteSheet_lightingBulb02_136x146_218
+  - first:
+      213: -2334510641021555732
+    second: spriteSheet_lightingBulb02_136x146_219
+  - first:
+      213: 8466090402152113621
+    second: spriteSheet_lightingBulb02_136x146_220
+  - first:
+      213: -3968976443103110411
+    second: spriteSheet_lightingBulb02_136x146_221
+  - first:
+      213: -585806057947413309
+    second: spriteSheet_lightingBulb02_136x146_222
+  - first:
+      213: -734818319670140351
+    second: spriteSheet_lightingBulb02_136x146_223
+  - first:
+      213: -878157921091658957
+    second: spriteSheet_lightingBulb02_136x146_224
+  - first:
+      213: 1103509017646696707
+    second: spriteSheet_lightingBulb02_136x146_225
+  - first:
+      213: 4278862860646185158
+    second: spriteSheet_lightingBulb02_136x146_226
+  - first:
+      213: -2299937465011124629
+    second: spriteSheet_lightingBulb02_136x146_227
+  - first:
+      213: 5533240132335339086
+    second: spriteSheet_lightingBulb02_136x146_228
+  - first:
+      213: -1253368538413130995
+    second: spriteSheet_lightingBulb02_136x146_229
+  - first:
+      213: 3194161197828945387
+    second: spriteSheet_lightingBulb02_136x146_230
+  - first:
+      213: 6066953756258756904
+    second: spriteSheet_lightingBulb02_136x146_231
+  - first:
+      213: -3295428949168323549
+    second: spriteSheet_lightingBulb02_136x146_232
+  - first:
+      213: -2563442179383398775
+    second: spriteSheet_lightingBulb02_136x146_233
+  - first:
+      213: -6859950805214287256
+    second: spriteSheet_lightingBulb02_136x146_234
+  - first:
+      213: 5100908980420651206
+    second: spriteSheet_lightingBulb02_136x146_235
+  - first:
+      213: -3920951888720511026
+    second: spriteSheet_lightingBulb02_136x146_236
+  - first:
+      213: 5561762441299342085
+    second: spriteSheet_lightingBulb02_136x146_237
+  - first:
+      213: -2465417274543992630
+    second: spriteSheet_lightingBulb02_136x146_238
+  - first:
+      213: -273090861159598806
+    second: spriteSheet_lightingBulb02_136x146_239
+  - first:
+      213: -4601516035377509135
+    second: spriteSheet_lightingBulb02_136x146_240
+  - first:
+      213: -1105139772667685622
+    second: spriteSheet_lightingBulb02_136x146_241
+  - first:
+      213: 7957344367874541151
+    second: spriteSheet_lightingBulb02_136x146_242
+  - first:
+      213: -4966881630487120897
+    second: spriteSheet_lightingBulb02_136x146_243
+  - first:
+      213: 4773310102721289311
+    second: spriteSheet_lightingBulb02_136x146_244
+  - first:
+      213: 5540462470093378602
+    second: spriteSheet_lightingBulb02_136x146_245
+  - first:
+      213: 90841997785613534
+    second: spriteSheet_lightingBulb02_136x146_246
+  - first:
+      213: 4001773819556528866
+    second: spriteSheet_lightingBulb02_136x146_247
+  - first:
+      213: -5501458485516865537
+    second: spriteSheet_lightingBulb02_136x146_248
+  - first:
+      213: -4542958189307356600
+    second: spriteSheet_lightingBulb02_136x146_249
+  - first:
+      213: 3005868198851510142
+    second: spriteSheet_lightingBulb02_136x146_250
+  - first:
+      213: -6583733232721933708
+    second: spriteSheet_lightingBulb02_136x146_251
+  - first:
+      213: 8560554177052020874
+    second: spriteSheet_lightingBulb02_136x146_252
+  - first:
+      213: 3632758572151899632
+    second: spriteSheet_lightingBulb02_136x146_253
+  - first:
+      213: 6711788735704794713
+    second: spriteSheet_lightingBulb02_136x146_254
+  - first:
+      213: 354591433091541600
+    second: spriteSheet_lightingBulb02_136x146_255
+  - first:
+      213: -1232783383714510862
+    second: spriteSheet_lightingBulb02_136x146_256
+  - first:
+      213: -5204135427225211623
+    second: spriteSheet_lightingBulb02_136x146_257
+  - first:
+      213: -8806422389811766598
+    second: spriteSheet_lightingBulb02_136x146_258
+  - first:
+      213: 152433379212436325
+    second: spriteSheet_lightingBulb02_136x146_259
+  - first:
+      213: 2346391285803773272
+    second: spriteSheet_lightingBulb02_136x146_260
+  - first:
+      213: 2326594682325676959
+    second: spriteSheet_lightingBulb02_136x146_261
+  - first:
+      213: -6769764817958424709
+    second: spriteSheet_lightingBulb02_136x146_262
+  - first:
+      213: -3035381601935030345
+    second: spriteSheet_lightingBulb02_136x146_263
+  - first:
+      213: 8392712755009915029
+    second: spriteSheet_lightingBulb02_136x146_264
+  - first:
+      213: -6205473341366833256
+    second: spriteSheet_lightingBulb02_136x146_265
+  - first:
+      213: -7282461042052543996
+    second: spriteSheet_lightingBulb02_136x146_266
+  - first:
+      213: 2709109650688555897
+    second: spriteSheet_lightingBulb02_136x146_267
+  - first:
+      213: -7785550574961026579
+    second: spriteSheet_lightingBulb02_136x146_268
+  - first:
+      213: -6539718094023983483
+    second: spriteSheet_lightingBulb02_136x146_269
+  - first:
+      213: -6272029382859919227
+    second: spriteSheet_lightingBulb02_136x146_270
+  - first:
+      213: 3506710158590092206
+    second: spriteSheet_lightingBulb02_136x146_271
+  - first:
+      213: 7889705984178177547
+    second: spriteSheet_lightingBulb02_136x146_272
+  - first:
+      213: -26020867238599750
+    second: spriteSheet_lightingBulb02_136x146_273
+  - first:
+      213: 6174439789844985968
+    second: spriteSheet_lightingBulb02_136x146_274
+  - first:
+      213: -6530930889330931617
+    second: spriteSheet_lightingBulb02_136x146_275
+  - first:
+      213: -3746596939512515304
+    second: spriteSheet_lightingBulb02_136x146_276
+  - first:
+      213: 818625312905398624
+    second: spriteSheet_lightingBulb02_136x146_277
+  - first:
+      213: 7294000337050712571
+    second: spriteSheet_lightingBulb02_136x146_278
+  - first:
+      213: 5904071487390585098
+    second: spriteSheet_lightingBulb02_136x146_279
+  - first:
+      213: 6526387445079905642
+    second: spriteSheet_lightingBulb02_136x146_280
+  - first:
+      213: 650829821322554627
+    second: spriteSheet_lightingBulb02_136x146_281
+  - first:
+      213: -6387213044612131165
+    second: spriteSheet_lightingBulb02_136x146_282
+  - first:
+      213: 5775993081903079458
+    second: spriteSheet_lightingBulb02_136x146_283
+  - first:
+      213: 5309633597091670438
+    second: spriteSheet_lightingBulb02_136x146_284
+  - first:
+      213: 2684081739436084652
+    second: spriteSheet_lightingBulb02_136x146_285
+  - first:
+      213: 1548387744713726315
+    second: spriteSheet_lightingBulb02_136x146_286
+  - first:
+      213: 9027957108339902651
+    second: spriteSheet_lightingBulb02_136x146_287
+  - first:
+      213: -5681339088110566505
+    second: spriteSheet_lightingBulb02_136x146_288
+  - first:
+      213: 4089123944867070254
+    second: spriteSheet_lightingBulb02_136x146_289
+  - first:
+      213: 6768884869709013153
+    second: spriteSheet_lightingBulb02_136x146_290
+  - first:
+      213: 1412925112768596903
+    second: spriteSheet_lightingBulb02_136x146_291
+  - first:
+      213: -5759885076461457096
+    second: spriteSheet_lightingBulb02_136x146_292
+  - first:
+      213: -2859067388769988553
+    second: spriteSheet_lightingBulb02_136x146_293
+  - first:
+      213: -5894629448761107133
+    second: spriteSheet_lightingBulb02_136x146_294
+  - first:
+      213: 8647185782265024136
+    second: spriteSheet_lightingBulb02_136x146_295
+  - first:
+      213: -7066290035368284578
+    second: spriteSheet_lightingBulb02_136x146_296
+  - first:
+      213: 3828773649854236356
+    second: spriteSheet_lightingBulb02_136x146_297
+  - first:
+      213: 5285116752011088086
+    second: spriteSheet_lightingBulb02_136x146_298
+  - first:
+      213: -4404549579842844670
+    second: spriteSheet_lightingBulb02_136x146_299
+  - first:
+      213: -1693036579398247553
+    second: spriteSheet_lightingBulb02_136x146_300
+  - first:
+      213: 1878966968502778191
+    second: spriteSheet_lightingBulb02_136x146_301
+  - first:
+      213: 6333187825192515340
+    second: spriteSheet_lightingBulb02_136x146_302
+  - first:
+      213: -5655998404549257301
+    second: spriteSheet_lightingBulb02_136x146_303
+  - first:
+      213: 1135042551341834781
+    second: spriteSheet_lightingBulb02_136x146_304
+  - first:
+      213: -8915301208198789580
+    second: spriteSheet_lightingBulb02_136x146_305
+  - first:
+      213: 3877289974610113369
+    second: spriteSheet_lightingBulb02_136x146_306
+  - first:
+      213: -5786837644152626106
+    second: spriteSheet_lightingBulb02_136x146_307
+  - first:
+      213: -7888004216539347510
+    second: spriteSheet_lightingBulb02_136x146_308
+  - first:
+      213: -3660206924014096165
+    second: spriteSheet_lightingBulb02_136x146_309
+  - first:
+      213: 3868058382373996685
+    second: spriteSheet_lightingBulb02_136x146_310
+  - first:
+      213: 8091959238435744552
+    second: spriteSheet_lightingBulb02_136x146_311
+  - first:
+      213: 5899479600518800535
+    second: spriteSheet_lightingBulb02_136x146_312
+  - first:
+      213: -2453214743277946589
+    second: spriteSheet_lightingBulb02_136x146_313
+  - first:
+      213: -280552048499920737
+    second: spriteSheet_lightingBulb02_136x146_314
+  - first:
+      213: -483323100740640019
+    second: spriteSheet_lightingBulb02_136x146_315
+  - first:
+      213: 8836805778488102922
+    second: spriteSheet_lightingBulb02_136x146_316
+  - first:
+      213: 3618178854538870879
+    second: spriteSheet_lightingBulb02_136x146_317
+  - first:
+      213: -4703209813439044423
+    second: spriteSheet_lightingBulb02_136x146_318
+  - first:
+      213: 5180301450222577850
+    second: spriteSheet_lightingBulb02_136x146_319
+  - first:
+      213: -8790382970617129503
+    second: spriteSheet_lightingBulb02_136x146_320
+  - first:
+      213: -6099744555203104937
+    second: spriteSheet_lightingBulb02_136x146_321
+  - first:
+      213: -4613706256796093282
+    second: spriteSheet_lightingBulb02_136x146_322
+  - first:
+      213: 6960096747826983262
+    second: spriteSheet_lightingBulb02_136x146_323
+  - first:
+      213: -2080352958778306074
+    second: spriteSheet_lightingBulb02_136x146_324
+  - first:
+      213: 5096792910692665913
+    second: spriteSheet_lightingBulb02_136x146_325
+  - first:
+      213: 5893228721693764947
+    second: spriteSheet_lightingBulb02_136x146_326
+  - first:
+      213: -8528890175376683325
+    second: spriteSheet_lightingBulb02_136x146_327
+  - first:
+      213: -4959440244560848480
+    second: spriteSheet_lightingBulb02_136x146_328
+  - first:
+      213: -8324277300722109146
+    second: spriteSheet_lightingBulb02_136x146_329
+  - first:
+      213: 1009679729163885751
+    second: spriteSheet_lightingBulb02_136x146_330
+  - first:
+      213: -4378690492531192739
+    second: spriteSheet_lightingBulb02_136x146_331
+  - first:
+      213: 941208520140575900
+    second: spriteSheet_lightingBulb02_136x146_332
+  - first:
+      213: -6030541028149276382
+    second: spriteSheet_lightingBulb02_136x146_333
+  - first:
+      213: 8724808081517330457
+    second: spriteSheet_lightingBulb02_136x146_334
+  - first:
+      213: -5165729262821047690
+    second: spriteSheet_lightingBulb02_136x146_335
+  - first:
+      213: -460614882963880457
+    second: spriteSheet_lightingBulb02_136x146_336
+  - first:
+      213: 6774871184479049326
+    second: spriteSheet_lightingBulb02_136x146_337
+  - first:
+      213: 5946987156983530119
+    second: spriteSheet_lightingBulb02_136x146_338
+  - first:
+      213: 3513747241637317243
+    second: spriteSheet_lightingBulb02_136x146_339
+  - first:
+      213: 6686637492926823928
+    second: spriteSheet_lightingBulb02_136x146_340
+  - first:
+      213: 1010512529576331686
+    second: spriteSheet_lightingBulb02_136x146_341
+  - first:
+      213: -1694189782646517164
+    second: spriteSheet_lightingBulb02_136x146_342
+  - first:
+      213: 7894306928853469349
+    second: spriteSheet_lightingBulb02_136x146_343
+  - first:
+      213: -3093556120283531241
+    second: spriteSheet_lightingBulb02_136x146_344
+  - first:
+      213: -2836199963370401827
+    second: spriteSheet_lightingBulb02_136x146_345
+  - first:
+      213: 6722292985024404995
+    second: spriteSheet_lightingBulb02_136x146_346
+  - first:
+      213: 3450210003812471057
+    second: spriteSheet_lightingBulb02_136x146_347
+  - first:
+      213: -6079842801434260808
+    second: spriteSheet_lightingBulb02_136x146_348
+  - first:
+      213: 385302934724271492
+    second: spriteSheet_lightingBulb02_136x146_349
+  - first:
+      213: 7644581142376773755
+    second: spriteSheet_lightingBulb02_136x146_350
+  - first:
+      213: 2831798422292541702
+    second: spriteSheet_lightingBulb02_136x146_351
+  - first:
+      213: -956464864111001964
+    second: spriteSheet_lightingBulb02_136x146_352
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b713c50bfd66e4b32a29f5c68d3a74ad
+      internalID: 819698306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305cbb8a7a23e4aef84875aa4f490b08
+      internalID: 1273623607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a469fe60dc9b541769cc289ed39a3070
+      internalID: -1581120660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7309f72dd50d4ec785386930aad1273
+      internalID: -1512836046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c521bbd8852740ee8b63521a23e9868
+      internalID: -1359831568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 733
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed028dbc5811d4615a8b9a16820765e2
+      internalID: 254729202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279724079ff5f4aeb87d5ccdd70d763a
+      internalID: 1413541777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00469a47933446a8abd5a5da129af73
+      internalID: 496413898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31d93b5335a4ee7bbc6f82e3b3b433
+      internalID: -1053828065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd71a831f3f54bd68a915ed6f7b6b6f
+      internalID: 612062965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45a4373957b44a29adcb8bc561495cc
+      internalID: -887551590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_11
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 590
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0002cebf0794da7b44577713a2b9fc
+      internalID: 2079805076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5893d8da11bed402db04ab07e5e68e01
+      internalID: 1685184023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5addfb1905242ac8beaead2f465892
+      internalID: -1007709512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bfff7339252431db92748d2aa7d413
+      internalID: 489317882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3034fd29b964a4bb9723292e773385
+      internalID: -1976918109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc643aeda7e5c4dbcaca2764a0fb1446
+      internalID: -509735169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 447
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84cd16b1caf0458e80697e79549a6e4
+      internalID: 402316044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63088c1371d474ce8ac802563f3818f2
+      internalID: 1509369578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108d99f0ee0e448b6bdc50840e322e3c
+      internalID: 787308829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3f7b7e925ab49398cdc6a4db20e532
+      internalID: -923478175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_21
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a004040dee34d2a9504fb2f8322256
+      internalID: -876215264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84a8706beb874d0faaf059e783467c5
+      internalID: -233777290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_23
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 304
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c02bd89b10a4286ba62cff95445852
+      internalID: 878913260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0990a9e37c4a461bba1741510294bb3
+      internalID: -201296630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af6a566928e490980c874a223776d2
+      internalID: -427394812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dac0dbe1d4234b88a2b0e6abae34960
+      internalID: -1066834934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_27
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152db1c4e7cb244c9ac4fcbf84a2488c
+      internalID: -1350250850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_28
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e4e8007492d4cb5b68491687ed9ec8
+      internalID: -173774321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_29
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 161
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272290b0cf1a4eb4a75daeeb50dbdce
+      internalID: 746495488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3d0c6963a3143aa81c9a98404f9de9
+      internalID: -713304862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df921d8764eb7412da945f5bc436d6ce
+      internalID: -291065878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054a9f819c3d4464985d95cadbc035d7
+      internalID: 1277870113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_33
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6c4a0906dd7491f9bf4792b08ef4cd
+      internalID: 1774234916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d38896da4529451bb2629beae9daae5
+      internalID: 1788217342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_35
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 18
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3021c2d83cd5842d9bb357664b1c311b
+      internalID: -1716993795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c336b5caab0e946359add87817034fc9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lightning_0: 819698306
+      Lightning_1: 1273623607
+      Lightning_10: -887551590
+      Lightning_11: 2079805076
+      Lightning_12: 1685184023
+      Lightning_13: -1007709512
+      Lightning_14: 489317882
+      Lightning_15: -1976918109
+      Lightning_16: -509735169
+      Lightning_17: 402316044
+      Lightning_18: 1509369578
+      Lightning_19: 787308829
+      Lightning_2: -1581120660
+      Lightning_20: -923478175
+      Lightning_21: -876215264
+      Lightning_22: -233777290
+      Lightning_23: 878913260
+      Lightning_24: -201296630
+      Lightning_25: -427394812
+      Lightning_26: -1066834934
+      Lightning_27: -1350250850
+      Lightning_28: -173774321
+      Lightning_29: 746495488
+      Lightning_3: -1512836046
+      Lightning_30: -713304862
+      Lightning_31: -291065878
+      Lightning_32: 1277870113
+      Lightning_33: 1774234916
+      Lightning_34: 1788217342
+      Lightning_35: -1716993795
+      Lightning_4: -1359831568
+      Lightning_5: 254729202
+      Lightning_6: 1413541777
+      Lightning_7: 496413898
+      Lightning_8: -1053828065
+      Lightning_9: 612062965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
