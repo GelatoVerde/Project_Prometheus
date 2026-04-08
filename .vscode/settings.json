@@ -60,14 +60,14 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Esoneroz.slnx",
+    "dotnet.defaultSolution": "Project_Prometheus.slnx",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBorder": "#FF2D9A25",
         "editorCursor.foreground": "#FF2D9A",
