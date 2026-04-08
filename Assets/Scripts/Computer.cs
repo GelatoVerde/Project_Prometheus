@@ -1,28 +1,29 @@
 using UnityEngine;
-using Unity.Cinemachine; // Se usi versioni vecchie di Unity: using Cinemachine;
+using Unity.Cinemachine; 
 
 public class Computer : MonoBehaviour
 {
-    [Header("Icona Prossimit√† (Prompt)")]
-    [Tooltip("L'icona 'Premi E' che appare quando sei vicino al PC")]
+    [Header("Icona Prossimit‡ (Prompt)")]
     public GameObject uiSprite;
 
     [Header("Cinemachine Camera")]
-    [Tooltip("La Virtual Camera unica che deve spostarsi tra Player e PC")]
     public CinemachineCamera vcam; 
 
     [Header("Target di Puntamento")]
-    [Tooltip("Il Transform del Player (solitamente assegnato a Follow/LookAt)")]
     public Transform playerTarget;
-    [Tooltip("Un oggetto vuoto posizionato dove la cam deve inquadrare il PC")]
     public Transform computerTarget;
 
     [Header("Interfaccia Minigioco")]
-    [Tooltip("Il Canvas o il Pannello UI del minigioco")]
     public GameObject minigamesUI;
 
+    [Header("UI Giocatore (Vita)")]
+    [Tooltip("Trascina qui i 3 elementi della vita, oppure l'oggetto Padre che li raggruppa")]
+    public GameObject[] elementiVitaUI;
+
+    [Header("Riferimento MagLockManager")]
+    public MagLockManager minigiocoManager;
+
     [Header("Riferimento Player")]
-    [Tooltip("Trascina qui il componente del movimento del Player per disattivarlo")]
     public MonoBehaviour playerMovementScript;
 
     [Header("Input")]
@@ -31,25 +32,23 @@ public class Computer : MonoBehaviour
 
     private bool isPlayerInside = false;
     private bool isUsingComputer = false;
+    
+    // Memoria per salvare lo stato della vita prima di aprire il pc
+    private bool[] statiVitaOriginali;
 
     private void Start()
     {
-        // Reset iniziale: UI e Icone spente
         if (uiSprite != null) uiSprite.SetActive(false);
         if (minigamesUI != null) minigamesUI.SetActive(false);
-        
-        // La camera inizia seguendo il player
         UpdateCameraTarget(false);
     }
 
     private void Update()
     {
-        // Logica di attivazione
         if (isPlayerInside && !isUsingComputer && Input.GetKeyDown(interactionKey))
         {
             SetComputerState(true);
         }
-        // Logica di uscita
         else if (isUsingComputer && Input.GetKeyDown(exitKey))
         {
             SetComputerState(false);
@@ -72,7 +71,6 @@ public class Computer : MonoBehaviour
             isPlayerInside = false;
             if (uiSprite != null) uiSprite.SetActive(false);
             
-            // Se il player esce dal trigger mentre usa il PC (es. teletrasporto), resettiamo
             if (isUsingComputer) SetComputerState(false);
         }
     }
@@ -80,6 +78,19 @@ public class Computer : MonoBehaviour
     private void SetComputerState(bool state)
     {
         isUsingComputer = state;
+
+        // Gestione Reset o Inizializzazione Minigioco
+        if (minigiocoManager != null)
+        {
+            if (!state && !minigiocoManager.isCompleted)
+            {
+                minigiocoManager.ResetMinigioco();
+            }
+            else if (state && !minigiocoManager.isCompleted)
+            {
+                minigiocoManager.InizializzaMinigioco();
+            }
+        }
 
         // 1. Gestione Camera
         UpdateCameraTarget(state);
@@ -90,8 +101,46 @@ public class Computer : MonoBehaviour
         // 3. Disabilita movimento Player
         if (playerMovementScript != null) playerMovementScript.enabled = !state;
 
-        // 4. Gestione Icona Prompt (Scompare quando usi il PC)
+        // 4. Gestione Icona Prompt
         if (uiSprite != null) uiSprite.SetActive(!state && isPlayerInside);
+
+        // 5. GESTIONE MEMORIA UI VITA
+        if (state == true)
+        {
+            // STIAMO APRENDO IL PC: Salviamo lo stato attuale e poi nascondiamo
+            
+            // Inizializza l'array di memoria se non esiste ancora
+            if (statiVitaOriginali == null || statiVitaOriginali.Length != elementiVitaUI.Length)
+            {
+                statiVitaOriginali = new bool[elementiVitaUI.Length];
+            }
+
+            for (int i = 0; i < elementiVitaUI.Length; i++)
+            {
+                if (elementiVitaUI[i] != null)
+                {
+                    // Memorizza se era acceso o spento
+                    statiVitaOriginali[i] = elementiVitaUI[i].activeSelf; 
+                    // Spegni l'oggetto
+                    elementiVitaUI[i].SetActive(false);
+                }
+            }
+        }
+        else
+        {
+            // STIAMO CHIUDENDO IL PC: Ripristiniamo esattamente come stavano prima
+            if (statiVitaOriginali != null)
+            {
+                for (int i = 0; i < elementiVitaUI.Length; i++)
+                {
+                    if (elementiVitaUI[i] != null)
+                    {
+                        // Rimetti lo stato salvato nella memoria
+                        elementiVitaUI[i].SetActive(statiVitaOriginali[i]);
+                    }
+                }
+            }
+        }
     }
 
     private void UpdateCameraTarget(bool toComputer)
@@ -102,8 +151,6 @@ public class Computer : MonoBehaviour
         {
             vcam.Follow = target;
             vcam.LookAt = target;
-
-            // Forza il passaggio istantaneo senza scivolamenti (Blend Cut)
             vcam.ForceCameraPosition(target.position, target.rotation);
         }
     }
