@@ -12,21 +12,14 @@ public class FinalDoor : MonoBehaviour
     public GameObject[] luciRosse;
     public GameObject[] luciVerdi;
 
-    [Header("Interfaccia Porta")]
-    public GameObject uiPortaSbloccata;
-
-    [Header("Input")]
-    public KeyCode tastoInterazione = KeyCode.E;
-
     // Variabili di memoria e stato
     private int minigiochiPrecedenti = -1;
     private bool isPlayerInside = false;
-    private bool isPortaAperta = false; // Ricorda se abbiamo già aperto la porta
+    private bool isPortaAperta = false; // Ricorda se abbiamo giÃ  aperto la porta
 
     private void Start()
     {
-        // Stato iniziale: UI spenta, porta chiusa visibile, porta aperta nascosta
-        if (uiPortaSbloccata != null) uiPortaSbloccata.SetActive(false);
+        // Stato iniziale: porta chiusa visibile, porta aperta nascosta
         if (spritePortaAperta != null) spritePortaAperta.SetActive(false);
         if (spritePortaChiusa != null) spritePortaChiusa.SetActive(true);
     }
@@ -42,14 +35,11 @@ public class FinalDoor : MonoBehaviour
             minigiochiPrecedenti = completatiAttuali;
         }
 
-        // 2. Controlla l'interazione per aprire la porta
-        // Se il player è nel trigger, la porta è chiusa, ci sono 3 lock risolti e preme "E"
+        // 2. Controlla l'apertura automatica
+        // Se il player Ã¨ nel trigger, la porta Ã¨ chiusa, e ci sono 3 lock risolti
         if (isPlayerInside && !isPortaAperta && completatiAttuali >= 3)
         {
-            if (Input.GetKeyDown(tastoInterazione))
-            {
-                ApriPorta();
-            }
+            ApriPorta();
         }
     }
 
@@ -81,10 +71,7 @@ public class FinalDoor : MonoBehaviour
         if (spritePortaChiusa != null) spritePortaChiusa.SetActive(false);
         if (spritePortaAperta != null) spritePortaAperta.SetActive(true);
 
-        // Nascondi la UI
-        if (uiPortaSbloccata != null) uiPortaSbloccata.SetActive(false);
-
-        Debug.Log("Hai aperto la porta!");
+        Debug.Log("Hai aperto la porta automaticamente!");
         
         // (Opzionale) Se la porta aveva un BoxCollider separato che bloccava 
         // fisicamente il passaggio, potresti disabilitarlo qui.
@@ -96,12 +83,6 @@ public class FinalDoor : MonoBehaviour
         if (collision.CompareTag("SeePlayer"))
         {
             isPlayerInside = true;
-
-            // Mostra la UI solo se ci sono i 3 lucchetti risolti e la porta NON è ancora stata aperta
-            if (!isPortaAperta && MagLockManager.minigiochiCompletatiGlobali >= 3)
-            {
-                if (uiPortaSbloccata != null) uiPortaSbloccata.SetActive(true);
-            }
         }
     }
 
@@ -110,9 +91,6 @@ public class FinalDoor : MonoBehaviour
         if (collision.CompareTag("SeePlayer"))
         {
             isPlayerInside = false;
-            
-            // Spegne sempre la UI quando ci allontaniamo
-            if (uiPortaSbloccata != null) uiPortaSbloccata.SetActive(false);
         }
     }
 }

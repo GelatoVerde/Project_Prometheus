@@ -10,20 +10,20 @@ public class PlayerController : MonoBehaviour
     private float xInput;
     private float yInput;   
     private Vector2 moveVelocity; 
-    private bool isDead = false; // Il "lucchetto" per la morte
+    private bool isDead = false; 
 
     [Header("Health (Vita)")]
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private int currentHealth; 
-    [SerializeField] private float regenDelay = 3f; // Tempo di attesa per rigenerare
-    private Coroutine regenCoroutine; // Riferimento per resettare il timer
+    [SerializeField] private float regenDelay = 3f; 
+    private Coroutine regenCoroutine; 
 
     [Header("Health UI & Game Over")]
     [SerializeField] private GameObject health1Image; 
     [SerializeField] private GameObject health2Image; 
     [SerializeField] private GameObject health3Image; 
     [SerializeField] private GameObject gameOverPanel;
-    [SerializeField] private AudioSource gameOverMusic; // NUOVO: Trascina qui la musica del Game Over
+    [SerializeField] private AudioSource gameOverMusic; 
 
     [Header("Damage Effects")]
     [SerializeField] private Image damageFlashPanel; 
@@ -57,6 +57,13 @@ public class PlayerController : MonoBehaviour
     private bool isFlashlightOn = false;
     private float batteryDelayTimer = 0f;
 
+    [Header("UI (Tab Menu)")]
+    [SerializeField] private GameObject tabGameObject; 
+
+    // --- NUOVO: FINE LIVELLO ---
+    [Header("End Game (Vittoria)")]
+    [SerializeField] private GameObject endPanel; // Trascina qui la UI di vittoria/fine
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -66,8 +73,15 @@ public class PlayerController : MonoBehaviour
         stamina = maxStamina; 
         battery = maxBattery;
         currentHealth = maxHealth; 
+        
+        // Assicurati che il tempo scorra normalmente all'avvio
+        Time.timeScale = 1f;
 
         if (flashlightObject != null) flashlightObject.SetActive(false);
+        if (tabGameObject != null) tabGameObject.SetActive(false);
+        if (endPanel != null) endPanel.SetActive(false);
+        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+        if (gameOverMusic != null) gameOverMusic.Stop();
 
         if (damageFlashPanel != null)
         {
@@ -76,9 +90,6 @@ public class PlayerController : MonoBehaviour
             damageFlashPanel.color = c;
         }
 
-        if (gameOverPanel != null) gameOverPanel.SetActive(false);
-        if (gameOverMusic != null) gameOverMusic.Stop();
-        
         UpdateHealthUI();
     }
    
@@ -88,6 +99,7 @@ public class PlayerController : MonoBehaviour
         HandleFlashlight();
         HandAnimation();
         UpdateUIBars();
+        HandleTabInput(); 
     }
 
     void FixedUpdate()
@@ -95,9 +107,19 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = moveVelocity;
     }
 
+    private void HandleTabInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (tabGameObject != null)
+            {
+                tabGameObject.SetActive(!tabGameObject.activeSelf);
+            }
+        }
+    }
+
     public void TakeDamage(int damageAmount)
     {
-        // Se il giocatore è GIA' morto, ignora completamente il resto del codice!
         if (isDead) return; 
 
         currentHealth -= damageAmount;
@@ -115,20 +137,14 @@ public class PlayerController : MonoBehaviour
         if (currentHealth <= 0) Die();
     }
 
-    // --- NUOVA COROUTINE: RIGENERAZIONE ---
     private IEnumerator RegenHealthRoutine()
     {
-        // Aspetta 3 secondi dopo l'ultimo danno ricevuto
         yield return new WaitForSeconds(regenDelay);
 
-        // Continua a rigenerare finché non arrivi alla vita massima
         while (currentHealth < maxHealth)
         {
             currentHealth++;
             UpdateHealthUI();
-            Debug.Log("Vita rigenerata! Attuale: " + currentHealth);
-            
-            // Aspetta altri 3 secondi per il prossimo punto vita
             yield return new WaitForSeconds(regenDelay);
         }
     }
@@ -164,46 +180,37 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         isDead = true; 
-        Debug.Log("Il giocatore è morto!");
         
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
 
-        // --- BLOCCA TUTTI I NEMICI TOTALMENTE ---
         EnemyController[] enemies = FindObjectsByType<EnemyController>(FindObjectsSortMode.None);
         foreach (EnemyController enemy in enemies)
         {
-            // 1. Ferma le coroutine in corso (niente attacchi o suoni "fantasma" in ritardo)
             enemy.StopAllCoroutines();
             
-            // 2. Inchioda il nemico sul posto fermando la sua fisica
             Rigidbody2D enemyRb = enemy.GetComponent<Rigidbody2D>();
             if (enemyRb != null) enemyRb.linearVelocity = Vector2.zero;
             
-            // 3. Ferma la musica dell'inseguimento
             AudioSource[] enemySources = enemy.GetComponentsInChildren<AudioSource>();
             foreach (AudioSource source in enemySources)
             {
                 source.Stop(); 
             }
             
-            // 4. Disabilita l'intelligenza artificiale
             enemy.enabled = false; 
         }
 
-        if (gameOverMusic != null)
-        {
-            gameOverMusic.Play();
-        }
+        if (gameOverMusic != null) gameOverMusic.Play();
         
-        // 5. Cambiamo il tag al giocatore così i nemici lo ignorano fisicamente
         gameObject.tag = "Untagged";
-        
         rb.linearVelocity = Vector2.zero;
         this.enabled = false; 
     }
 
-    // (Tutte le altre funzioni HandleInput, Flashlight, etc. rimangono uguali...)
-    private IEnumerator DamageFlashRoutine() { /* ... già presente ... */ 
+    private IEnumerator DamageFlashRoutine() { 
         Color c = damageFlashPanel.color;
         c.a = 0.4f; 
         damageFlashPanel.color = c;
@@ -282,5 +289,27 @@ public class PlayerController : MonoBehaviour
     private void UpdateUIBars() {
         if (StaminaBar != null) StaminaBar.fillAmount = stamina / maxStamina;
         if (BatteryBar != null) BatteryBar.fillAmount = battery / maxBattery;
+    }
+
+    // --- NUOVA FUNZIONE: CONTROLLO TRIGGER FINE LIVELLO ---
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("END"))
+        {
+            Debug.Log("Trigger END toccato: Vittoria!");
+            
+            // Ferma il gioco
+            Time.timeScale = 0f;
+
+            // Sblocca il mouse
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+
+            // Mostra la UI
+            if (endPanel != null)
+            {
+                endPanel.SetActive(true);
+            }
+        }
     }
 }

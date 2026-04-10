@@ -22,8 +22,7 @@ public class EnemyController : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float speed = 2.7f;
-    [SerializeField] private float waitTime = 2f;
-    [SerializeField] private bool loopWaypoints;
+    [SerializeField] private bool loopWaypoints; // Rimosso waitTime
 
     // --- SISTEMA DI ATTACCO ---
     [Header("Combat")]
@@ -31,7 +30,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float attackCooldown = 1f; 
     
     // NUOVO: SUONO ATTACCO
-    [SerializeField] private AudioSource attackAudioSource; // Trascina qui l'AudioSource dell'attacco
+    [SerializeField] private AudioSource attackAudioSource; 
     
     private bool isAttacking = false; 
 
@@ -84,7 +83,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Image tensionUIImage; 
 
     private int currentPhase = -1; 
-    private bool isWaiting;
+    // Rimossa la variabile isWaiting
 
     // Riferimenti alle Coroutine
     private Coroutine fade0;
@@ -196,12 +195,12 @@ public class EnemyController : MonoBehaviour
                 ReturnViaBreadcrumbs(); 
             }
         }
-        else if (!isWaitingToReturn && !isWaiting && waypoints != null && waypoints.Length > 0)
+        else if (!isWaitingToReturn && waypoints != null && waypoints.Length > 0)
         {
             MoveToWaypoint();
             breadcrumbs.Clear(); 
         }
-        else if (isWaiting || isWaitingToReturn || (waypoints == null || waypoints.Length == 0))
+        else if (isWaitingToReturn || (waypoints == null || waypoints.Length == 0))
         {
             rb.linearVelocity = Vector2.zero;
         }
@@ -255,8 +254,6 @@ public class EnemyController : MonoBehaviour
         {
             player.TakeDamage(attackDamage); 
             
-            // NUOVO: SUONO ATTACCO
-            // Facciamo partire il suono del colpo
             if (attackAudioSource != null)
             {
                 attackAudioSource.Play();
@@ -383,9 +380,15 @@ public class EnemyController : MonoBehaviour
         
         rb.linearVelocity = finalDirection * speed;
 
-        if (Vector2.Distance(transform.position, moveTo.position) < 0.5f && !isWaiting)
+        // Se arriva al waypoint, aggiorna immediatamente l'indice senza fermarsi
+        if (Vector2.Distance(transform.position, moveTo.position) < 0.5f)
         {
-            StartCoroutine(WaitAtWaypoint());
+            if (waypoints != null && waypoints.Length > 0)
+            {
+                currentWaypointIndex = loopWaypoints ? 
+                    (currentWaypointIndex + 1) % waypoints.Length : 
+                    Mathf.Min(currentWaypointIndex + 1, waypoints.Length - 1);
+            }
         }
     }
 
@@ -454,23 +457,6 @@ public class EnemyController : MonoBehaviour
         }
 
         return currentDirection;
-    }
-
-    IEnumerator WaitAtWaypoint()
-    {
-        isWaiting = true;
-        rb.linearVelocity = Vector2.zero; 
-        
-        yield return new WaitForSeconds(waitTime);
-
-        if (waypoints != null && waypoints.Length > 0)
-        {
-            currentWaypointIndex = loopWaypoints ? 
-                (currentWaypointIndex + 1) % waypoints.Length : 
-                Mathf.Min(currentWaypointIndex + 1, waypoints.Length - 1);
-        }
-
-        isWaiting = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

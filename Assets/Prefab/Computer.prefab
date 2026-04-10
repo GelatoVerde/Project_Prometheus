@@ -344,7 +344,9 @@ MonoBehaviour:
   vcam: {fileID: 0}
   playerTarget: {fileID: 0}
   computerTarget: {fileID: 0}
-  minigamesContainer: {fileID: 0}
+  minigamesUI: {fileID: 0}
+  elementiVitaUI: []
+  minigiocoManager: {fileID: 0}
   playerMovementScript: {fileID: 0}
   interactionKey: 101
   exitKey: 27
@@ -423,7 +425,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: -1550928314, guid: 160a7a2230af74e08bd606c8eb233163, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -651,7 +653,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: -3325287648048771512, guid: 160a7a2230af74e08bd606c8eb233163, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

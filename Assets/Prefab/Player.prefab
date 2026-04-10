@@ -138,10 +138,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   currentHealth: 0
+  regenDelay: 20
   health1Image: {fileID: 0}
   health2Image: {fileID: 0}
   health3Image: {fileID: 0}
   gameOverPanel: {fileID: 0}
+  gameOverMusic: {fileID: 0}
   damageFlashPanel: {fileID: 0}
   flashDuration: 0.3
   speed: 2.5

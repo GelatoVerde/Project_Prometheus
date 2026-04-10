@@ -1,7 +1,7 @@
 using UnityEngine;
 using Unity.Cinemachine;
 using Unity.VisualScripting;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 [SaveDuringPlay]
 [AddComponentMenu("")]
